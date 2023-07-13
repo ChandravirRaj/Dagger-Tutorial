@@ -4,6 +4,9 @@ import android.app.Application
 import com.androboy.dagger2demo.component.DaggerStudentRegistrationComponent2
 import com.androboy.dagger2demo.component.StudentRegistrationComponent2
 
+/**
+ * Application base component
+ * */
 class DaggerDemoApp : Application() {
     lateinit var studentRegistrationComponent2: StudentRegistrationComponent2
 
